@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Admin Panel</title>
+</head>
+
+<body>
+
+    <div class="spinner-border" role="status">
+        <span class="sr-only loader d-none">Loading...</span>
+      </div>
+    
+    <div class="left-section-admin bg-primary">
+        <p class="text-white text-center">SB ADMIN <sup>2</sup></p>
+
+        <ul class="admin-items">
+            <li id="suppliers">Suppliers</li>
+            <a href="create.html" class="btn btn-success open-modal" id="create">Create</a>
+        </ul>
+
+        <!-- <div class="text-center">
+        <button class="btn btn-danger">choose</button>
+        </div> -->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <p class="justify-content-center bg-light text-primary mt-3 w-75 m-auto">DataTables Example</p>
+            <div class="table-container  h-100">
+                <table class="table bg-white border border-dark mt-3 w-75 m-auto ">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="mx-5">id</th>
+                            <th scope="col">ContactName</th>
+                            <th scope="col">ContactTitle</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Setting</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script  type="module"  src="script.js"></script>
+</body>
+
+</html>

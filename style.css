@@ -1,0 +1,21 @@
+.left-section-admin{
+    width: 15%;
+    height:100vh;
+    position: fixed;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-items{
+    list-style: none;
+    color: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.admin-items li{
+    padding: 10px 0;
+    cursor: pointer;
+}
